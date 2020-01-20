@@ -1,6 +1,8 @@
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class ExerciseA {
     // update the number of interactions
-    public static final int NUM_ITER = 1000;
+    public static final int NUM_ITER = 100000;
 
     static class MyThread extends Thread {
         private String name;
